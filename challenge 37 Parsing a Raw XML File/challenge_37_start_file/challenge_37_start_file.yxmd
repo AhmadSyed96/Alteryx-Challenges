@@ -1,0 +1,1098 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="244" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="454" y="244" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="70" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #37</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="114" width="612" height="95" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Use Case: A company receives customer purchase and shipping data on a weekly level based on web and catalog purchases.  The company would like to analyze their customers and produce a profile by market by SKU.   The challenge is that the data feed contains XML that needs to be parsed in order effectively analyze the data.
+
+Objective:  The column called customer_OuterXML contains the data that needs to be parsed into 26 unique fields detailing the customer contact information for both the “Bill To” and “Ship To” attributes. 
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ahmad\AppData\Local\Temp\Engine_15828_884696af588f4df89769b2b79ecc2b3f_\Engine_20396_d2fb102834a94e36a320c52847709704_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="189" y="279" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ahmad\AppData\Local\Temp\Engine_15828_884696af588f4df89769b2b79ecc2b3f_\Engine_20396_f68e78f967394bf3aee2315af9c3f814_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="149">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="89" y="279" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">XML_Input.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>XML_Input.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="Formula: &quot;2019-10-03&quot;" type="Date" />
+            <Field name="source" size="25" source="Formula: if [source] = &quot;BFL2&quot; then &quot;SRS5&quot; else &quot;CD087&quot; endif" type="V_String" />
+            <Field name="Order Number" size="9" source="Formula: &quot;CP&quot;+ReverseString(Right([Order Number], 7))" type="String" />
+            <Field name="customer_OuterXML" size="25400" source="TextInput:" type="V_String" />
+            <Field name="purchase2" size="6" source="TextInput:" type="String" />
+            <Field name="shipment2" size="4" source="TextInput:" type="String" />
+            <Field name="purchase" size="25" source="Formula: &quot;online&quot;" type="V_String" />
+            <Field name="shipment" size="4" source="Formula: &quot;GRND&quot;" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="151">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="Source" />
+            <Field name="Order Number" />
+            <Field name="Purchase" />
+            <Field name="Shipment" />
+            <Field name="Billing_first_name" />
+            <Field name="Billing_last_name" />
+            <Field name="Billing_home_phone" />
+            <Field name="Billing_email" />
+            <Field name="Billing_Street address" />
+            <Field name="Billing_city" />
+            <Field name="Billing_State" />
+            <Field name="Billing_State Code" />
+            <Field name="Billing_postal_code" />
+            <Field name="Billing_country_code" />
+            <Field name="Shipping_first_name" />
+            <Field name="Shipping_last_name" />
+            <Field name="Shipping_home_phone" />
+            <Field name="Shipping_email" />
+            <Field name="Shipping_Street address" />
+            <Field name="Shipping_city" />
+            <Field name="Shipping_State" />
+            <Field name="Shipping_State Code" />
+            <Field name="Shipping_postal_code" />
+            <Field name="Shipping_country_code" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201385</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>RUSSEL</c>
+              <c>LARIO</c>
+              <c>2567743663</c>
+              <c>RLARIO@GMAIL.COM</c>
+              <c>525 PEMBERTON AVE</c>
+              <c>DELTONA</c>
+              <c>FLORIDA</c>
+              <c>FL</c>
+              <c>32738</c>
+              <c>US</c>
+              <c>SARAH</c>
+              <c>LARIO</c>
+              <c />
+              <c />
+              <c>11225 S. VERMILLION AVE</c>
+              <c>BROWNSVILLE</c>
+              <c>TEXAS</c>
+              <c>TX</c>
+              <c>78523</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201384</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>MELISSA</c>
+              <c>TUCKER</c>
+              <c>9135568221</c>
+              <c>MTUCKER@YAHOO.COM</c>
+              <c>608 GARFIELD AVE</c>
+              <c>KANSAS CITY</c>
+              <c>KANSAS</c>
+              <c>KS</c>
+              <c>66102</c>
+              <c>US</c>
+              <c>MELISSA</c>
+              <c>TUCKER</c>
+              <c>9135524110</c>
+              <c>MTUCKER@YAHOO.COM</c>
+              <c>6008 GARFIELD AVE</c>
+              <c>KANSAS CITY</c>
+              <c>KANSAS</c>
+              <c>KS</c>
+              <c>66102</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201383</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>DEBORAH</c>
+              <c>BROWN</c>
+              <c>2154451003</c>
+              <c>DBROWN@VERIZON.NET</c>
+              <c>719 MYRTLE LANE</c>
+              <c>WARMINSTER</c>
+              <c>PENNSYLVANIA</c>
+              <c>PA</c>
+              <c>18974</c>
+              <c>US</c>
+              <c>DEBORAH</c>
+              <c>BROWN</c>
+              <c>2154415602</c>
+              <c>DBROWN@VERIZON.NET</c>
+              <c>719 MYRTLE LANE</c>
+              <c>WARMINSTER</c>
+              <c>PENNSYLVANIA</c>
+              <c>PA</c>
+              <c>18974</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201382</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>SUZANNE</c>
+              <c>FENTON</c>
+              <c>5152148552</c>
+              <c>SFEN@COMCAST.NET</c>
+              <c>1633 KENDALL STREET</c>
+              <c>WEYMOUTH</c>
+              <c>MASSACHUSETTS</c>
+              <c>MA</c>
+              <c>02189</c>
+              <c>US</c>
+              <c>SUZANNE</c>
+              <c>FENTON</c>
+              <c />
+              <c />
+              <c>1633 KENDALL STREET</c>
+              <c>WEYMOUTH</c>
+              <c>MASSACHUSETTS</c>
+              <c>MA</c>
+              <c>02189</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201381</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>DAWN</c>
+              <c>KELTER</c>
+              <c>8021169885</c>
+              <c>DKELT@AOL.COM</c>
+              <c>P.O. BOX 36</c>
+              <c>MILTON</c>
+              <c>NEW JERSEY</c>
+              <c>NJ</c>
+              <c>08332</c>
+              <c>US</c>
+              <c>DANIELLE</c>
+              <c>KELTER</c>
+              <c />
+              <c />
+              <c>2481 PANCOAST MILL RD</c>
+              <c>BUENA</c>
+              <c>NEW JERSEY</c>
+              <c>NJ</c>
+              <c>08310</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201380</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>ALICE</c>
+              <c>STANFORD</c>
+              <c>2175146997</c>
+              <c>ASTANFORD@HOTMAIL.COM</c>
+              <c>955 E CENTER ST</c>
+              <c>PAXTON</c>
+              <c>ILLINOIS</c>
+              <c>IL</c>
+              <c>60957</c>
+              <c>US</c>
+              <c>ALICE</c>
+              <c>STANFORD</c>
+              <c>2175568712</c>
+              <c>ASTANFORD@HOTMAIL.COM</c>
+              <c>955 E CENTER ST</c>
+              <c>PAXTON</c>
+              <c>ILLINOIS</c>
+              <c>IL</c>
+              <c>60957</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201379</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>CHRISTINE</c>
+              <c>BAUMGARTNER</c>
+              <c>4082845113</c>
+              <c>MOMBAUM@AOL.COM</c>
+              <c>129 BRYAN AVE.</c>
+              <c>SAN JOSE</c>
+              <c>CALIFORNIA</c>
+              <c>CA</c>
+              <c>95118</c>
+              <c>US</c>
+              <c>CHRISTINE</c>
+              <c>BAUMGARTNER</c>
+              <c>4082156887</c>
+              <c>MOMBAUM@AOL.COM</c>
+              <c>129 BRYAN AVE.</c>
+              <c>SAN JOSE</c>
+              <c>CALIFORNIA</c>
+              <c>CA</c>
+              <c>95118</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201378</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>EMILY</c>
+              <c>BEVEL</c>
+              <c>9195167883</c>
+              <c>EMBEV@NC.RR.COM</c>
+              <c>4133 MIDDLETON WAY</c>
+              <c>WAKE FOREST</c>
+              <c>NORTH CAROLINA</c>
+              <c>NC</c>
+              <c>27587</c>
+              <c>US</c>
+              <c>EMILY</c>
+              <c>BEVEL</c>
+              <c>91956332127</c>
+              <c>EMBEV@NC.RR.COM</c>
+              <c>4133 MIDDLETON WAY</c>
+              <c>WAKE FOREST</c>
+              <c>NORTH CAROLINA</c>
+              <c>NC</c>
+              <c>27587</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201368</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>MEGHAN</c>
+              <c>CARR</c>
+              <c>3132158741</c>
+              <c>MCARR@AOL.COM</c>
+              <c>11395 GRANDVILLA</c>
+              <c>DETROIT</c>
+              <c>MICHIGAN</c>
+              <c>MI</c>
+              <c>48228</c>
+              <c>US</c>
+              <c>LAUREN</c>
+              <c>BALL</c>
+              <c />
+              <c />
+              <c>1244 CHESTER WAY</c>
+              <c>MARIETTA</c>
+              <c>GEORGIA</c>
+              <c>GA</c>
+              <c>30066</c>
+              <c>US</c>
+            </r>
+            <r>
+              <c>2019-10-03</c>
+              <c>CD087</c>
+              <c>CP2201376</c>
+              <c>ONLINE</c>
+              <c>GRND</c>
+              <c>AMANDA</c>
+              <c>ENGLE</c>
+              <c>2126632244</c>
+              <c>AENGLE@YAHOO.COM</c>
+              <c>107055 73RD ST</c>
+              <c>PUYALLUP</c>
+              <c>WASHINGTON</c>
+              <c>WA</c>
+              <c>98373</c>
+              <c>US</c>
+              <c>KRISTIN</c>
+              <c>ICKLES</c>
+              <c />
+              <c />
+              <c>9204 WILLOUGHBY ST</c>
+              <c>PUYALLUP</c>
+              <c>WASHINGTON</c>
+              <c>WA</c>
+              <c>98373</c>
+              <c>US</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="152">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="162" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>customer_OuterXML</XMLField>
+          <XMLElement />
+          <ChildValues value="True" />
+          <OuterXML value="True" />
+          <ParseRoot value="True" />
+          <IgnoreErrors value="False" />
+          <IncludeInOutput value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="Formula: &quot;2019-10-03&quot;" type="Date" />
+            <Field name="source" size="25" source="Formula: if [source] = &quot;BFL2&quot; then &quot;SRS5&quot; else &quot;CD087&quot; endif" type="V_String" />
+            <Field name="Order Number" size="9" source="Formula: &quot;CP&quot;+ReverseString(Right([Order Number], 7))" type="String" />
+            <Field name="customer_OuterXML" size="25400" source="TextInput:" type="V_String" />
+            <Field name="purchase2" size="6" source="TextInput:" type="String" />
+            <Field name="shipment2" size="4" source="TextInput:" type="String" />
+            <Field name="purchase" size="25" source="Formula: &quot;online&quot;" type="V_String" />
+            <Field name="shipment" size="4" source="Formula: &quot;GRND&quot;" type="String" />
+            <Field name="customer" size="48" type="V_String" />
+            <Field name="reference" size="9" type="V_String" />
+            <Field name="reference_OuterXML" size="32" type="V_String" />
+            <Field name="bill_to" size="47" type="V_String" />
+            <Field name="bill_to_OuterXML" size="671" type="V_String" />
+            <Field name="ship_to" size="47" type="V_String" />
+            <Field name="ship_to_OuterXML" size="671" type="V_String" />
+            <Field name="customer_OuterXML2" size="1440" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="153">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="270" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>bill_to_OuterXML</XMLField>
+          <XMLElement>contact</XMLElement>
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+          <IncludeInOutput value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="Formula: &quot;2019-10-03&quot;" type="Date" />
+            <Field name="source" size="25" source="Formula: if [source] = &quot;BFL2&quot; then &quot;SRS5&quot; else &quot;CD087&quot; endif" type="V_String" />
+            <Field name="Order Number" size="9" source="Formula: &quot;CP&quot;+ReverseString(Right([Order Number], 7))" type="String" />
+            <Field name="customer_OuterXML" size="25400" source="TextInput:" type="V_String" />
+            <Field name="purchase2" size="6" source="TextInput:" type="String" />
+            <Field name="shipment2" size="4" source="TextInput:" type="String" />
+            <Field name="purchase" size="25" source="Formula: &quot;online&quot;" type="V_String" />
+            <Field name="shipment" size="4" source="Formula: &quot;GRND&quot;" type="String" />
+            <Field name="customer" size="48" type="V_String" />
+            <Field name="reference" size="9" type="V_String" />
+            <Field name="reference_OuterXML" size="32" type="V_String" />
+            <Field name="bill_to" size="47" type="V_String" />
+            <Field name="bill_to_OuterXML" size="671" type="V_String" />
+            <Field name="ship_to" size="47" type="V_String" />
+            <Field name="ship_to_OuterXML" size="671" type="V_String" />
+            <Field name="customer_OuterXML2" size="1440" type="V_String" />
+            <Field name="contact" size="101" type="V_String" />
+            <Field name="first_name" size="9" type="V_String" />
+            <Field name="last_name" size="11" type="V_String" />
+            <Field name="home_phone" size="10" type="V_String" />
+            <Field name="email" size="21" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="154">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="270" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>ship_to_OuterXML</XMLField>
+          <XMLElement>contact</XMLElement>
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+          <IncludeInOutput value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="Formula: &quot;2019-10-03&quot;" type="Date" />
+            <Field name="source" size="25" source="Formula: if [source] = &quot;BFL2&quot; then &quot;SRS5&quot; else &quot;CD087&quot; endif" type="V_String" />
+            <Field name="Order Number" size="9" source="Formula: &quot;CP&quot;+ReverseString(Right([Order Number], 7))" type="String" />
+            <Field name="customer_OuterXML" size="25400" source="TextInput:" type="V_String" />
+            <Field name="purchase2" size="6" source="TextInput:" type="String" />
+            <Field name="shipment2" size="4" source="TextInput:" type="String" />
+            <Field name="purchase" size="25" source="Formula: &quot;online&quot;" type="V_String" />
+            <Field name="shipment" size="4" source="Formula: &quot;GRND&quot;" type="String" />
+            <Field name="customer" size="48" type="V_String" />
+            <Field name="reference" size="9" type="V_String" />
+            <Field name="reference_OuterXML" size="32" type="V_String" />
+            <Field name="bill_to" size="47" type="V_String" />
+            <Field name="bill_to_OuterXML" size="671" type="V_String" />
+            <Field name="ship_to" size="47" type="V_String" />
+            <Field name="ship_to_OuterXML" size="671" type="V_String" />
+            <Field name="customer_OuterXML2" size="1440" type="V_String" />
+            <Field name="contact" size="101" type="V_String" />
+            <Field name="first_name" size="9" type="V_String" />
+            <Field name="last_name" size="11" type="V_String" />
+            <Field name="home_phone" size="11" type="V_String" />
+            <Field name="email" size="21" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="155">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="378" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>bill_to_OuterXML</XMLField>
+          <XMLElement>address</XMLElement>
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+          <IncludeInOutput value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="Formula: &quot;2019-10-03&quot;" type="Date" />
+            <Field name="source" size="25" source="Formula: if [source] = &quot;BFL2&quot; then &quot;SRS5&quot; else &quot;CD087&quot; endif" type="V_String" />
+            <Field name="Order Number" size="9" source="Formula: &quot;CP&quot;+ReverseString(Right([Order Number], 7))" type="String" />
+            <Field name="customer_OuterXML" size="25400" source="TextInput:" type="V_String" />
+            <Field name="purchase2" size="6" source="TextInput:" type="String" />
+            <Field name="shipment2" size="4" source="TextInput:" type="String" />
+            <Field name="purchase" size="25" source="Formula: &quot;online&quot;" type="V_String" />
+            <Field name="shipment" size="4" source="Formula: &quot;GRND&quot;" type="String" />
+            <Field name="customer" size="48" type="V_String" />
+            <Field name="reference" size="9" type="V_String" />
+            <Field name="reference_OuterXML" size="32" type="V_String" />
+            <Field name="bill_to" size="47" type="V_String" />
+            <Field name="bill_to_OuterXML" size="671" type="V_String" />
+            <Field name="ship_to" size="47" type="V_String" />
+            <Field name="ship_to_OuterXML" size="671" type="V_String" />
+            <Field name="customer_OuterXML2" size="1440" type="V_String" />
+            <Field name="contact" size="101" type="V_String" />
+            <Field name="first_name" size="9" type="V_String" />
+            <Field name="last_name" size="11" type="V_String" />
+            <Field name="home_phone" size="10" type="V_String" />
+            <Field name="email" size="21" type="V_String" />
+            <Field name="address" size="143" type="V_String" />
+            <Field name="line" size="19" type="V_String" />
+            <Field name="line_sequence" size="1" type="V_String" />
+            <Field name="city" size="11" type="V_String" />
+            <Field name="province_code" size="2" type="V_String" />
+            <Field name="province" size="14" type="V_String" />
+            <Field name="postal_code" size="5" type="V_String" />
+            <Field name="country_code" size="2" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="156">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="378" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>ship_to_OuterXML</XMLField>
+          <XMLElement>address</XMLElement>
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+          <IncludeInOutput value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="Formula: &quot;2019-10-03&quot;" type="Date" />
+            <Field name="source" size="25" source="Formula: if [source] = &quot;BFL2&quot; then &quot;SRS5&quot; else &quot;CD087&quot; endif" type="V_String" />
+            <Field name="Order Number" size="9" source="Formula: &quot;CP&quot;+ReverseString(Right([Order Number], 7))" type="String" />
+            <Field name="customer_OuterXML" size="25400" source="TextInput:" type="V_String" />
+            <Field name="purchase2" size="6" source="TextInput:" type="String" />
+            <Field name="shipment2" size="4" source="TextInput:" type="String" />
+            <Field name="purchase" size="25" source="Formula: &quot;online&quot;" type="V_String" />
+            <Field name="shipment" size="4" source="Formula: &quot;GRND&quot;" type="String" />
+            <Field name="customer" size="48" type="V_String" />
+            <Field name="reference" size="9" type="V_String" />
+            <Field name="reference_OuterXML" size="32" type="V_String" />
+            <Field name="bill_to" size="47" type="V_String" />
+            <Field name="bill_to_OuterXML" size="671" type="V_String" />
+            <Field name="ship_to" size="47" type="V_String" />
+            <Field name="ship_to_OuterXML" size="671" type="V_String" />
+            <Field name="customer_OuterXML2" size="1440" type="V_String" />
+            <Field name="contact" size="101" type="V_String" />
+            <Field name="first_name" size="9" type="V_String" />
+            <Field name="last_name" size="11" type="V_String" />
+            <Field name="home_phone" size="11" type="V_String" />
+            <Field name="email" size="21" type="V_String" />
+            <Field name="address" size="143" type="V_String" />
+            <Field name="line" size="23" type="V_String" />
+            <Field name="line_sequence" size="1" type="V_String" />
+            <Field name="city" size="11" type="V_String" />
+            <Field name="province_code" size="2" type="V_String" />
+            <Field name="province" size="14" type="V_String" />
+            <Field name="postal_code" size="5" type="V_String" />
+            <Field name="country_code" size="2" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="158">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="498" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="first_name" />
+            <Field name="last_name" />
+            <Field name="home_phone" />
+            <Field name="email" />
+            <Field name="address" />
+            <Field name="line" />
+            <Field name="line_sequence" />
+            <Field name="city" />
+            <Field name="province_code" />
+            <Field name="province" />
+            <Field name="postal_code" />
+            <Field name="country_code" />
+            <Field name="date" selected="False" />
+            <Field name="source" selected="False" />
+            <Field name="Order Number" selected="False" />
+            <Field name="customer_OuterXML" selected="False" />
+            <Field name="purchase2" selected="False" />
+            <Field name="shipment2" selected="False" />
+            <Field name="purchase" selected="False" />
+            <Field name="shipment" selected="False" />
+            <Field name="customer" selected="False" />
+            <Field name="reference" selected="False" />
+            <Field name="reference_OuterXML" selected="False" />
+            <Field name="bill_to" selected="False" />
+            <Field name="bill_to_OuterXML" selected="False" />
+            <Field name="ship_to" selected="False" />
+            <Field name="ship_to_OuterXML" selected="False" />
+            <Field name="customer_OuterXML2" selected="False" />
+            <Field name="contact" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <Expression>'Billing'+[_CurrentField_]</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="Formula: &quot;2019-10-03&quot;" type="Date" />
+            <Field name="source" size="25" source="Formula: if [source] = &quot;BFL2&quot; then &quot;SRS5&quot; else &quot;CD087&quot; endif" type="V_String" />
+            <Field name="Order Number" size="9" source="Formula: &quot;CP&quot;+ReverseString(Right([Order Number], 7))" type="String" />
+            <Field name="customer_OuterXML" size="25400" source="TextInput:" type="V_String" />
+            <Field name="purchase2" size="6" source="TextInput:" type="String" />
+            <Field name="shipment2" size="4" source="TextInput:" type="String" />
+            <Field name="purchase" size="25" source="Formula: &quot;online&quot;" type="V_String" />
+            <Field name="shipment" size="4" source="Formula: &quot;GRND&quot;" type="String" />
+            <Field name="customer" size="48" type="V_String" />
+            <Field name="reference" size="9" type="V_String" />
+            <Field name="reference_OuterXML" size="32" type="V_String" />
+            <Field name="bill_to" size="47" type="V_String" />
+            <Field name="bill_to_OuterXML" size="671" type="V_String" />
+            <Field name="ship_to" size="47" type="V_String" />
+            <Field name="ship_to_OuterXML" size="671" type="V_String" />
+            <Field name="customer_OuterXML2" size="1440" type="V_String" />
+            <Field name="contact" size="101" type="V_String" />
+            <Field name="Billingfirst_name" size="9" type="V_String" />
+            <Field name="Billinglast_name" size="11" type="V_String" />
+            <Field name="Billinghome_phone" size="10" type="V_String" />
+            <Field name="Billingemail" size="21" type="V_String" />
+            <Field name="Billingaddress" size="143" type="V_String" />
+            <Field name="Billingline" size="19" type="V_String" />
+            <Field name="Billingline_sequence" size="1" type="V_String" />
+            <Field name="Billingcity" size="11" type="V_String" />
+            <Field name="Billingprovince_code" size="2" type="V_String" />
+            <Field name="Billingprovince" size="14" type="V_String" />
+            <Field name="Billingpostal_code" size="5" type="V_String" />
+            <Field name="Billingcountry_code" size="2" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="159">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="498" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="first_name" />
+            <Field name="last_name" />
+            <Field name="home_phone" />
+            <Field name="email" />
+            <Field name="address" />
+            <Field name="line" />
+            <Field name="line_sequence" />
+            <Field name="city" />
+            <Field name="province_code" />
+            <Field name="province" />
+            <Field name="postal_code" />
+            <Field name="country_code" />
+            <Field name="date" selected="False" />
+            <Field name="source" selected="False" />
+            <Field name="Order Number" selected="False" />
+            <Field name="customer_OuterXML" selected="False" />
+            <Field name="purchase2" selected="False" />
+            <Field name="shipment2" selected="False" />
+            <Field name="purchase" selected="False" />
+            <Field name="shipment" selected="False" />
+            <Field name="customer" selected="False" />
+            <Field name="reference" selected="False" />
+            <Field name="reference_OuterXML" selected="False" />
+            <Field name="bill_to" selected="False" />
+            <Field name="bill_to_OuterXML" selected="False" />
+            <Field name="ship_to" selected="False" />
+            <Field name="ship_to_OuterXML" selected="False" />
+            <Field name="customer_OuterXML2" selected="False" />
+            <Field name="contact" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <Expression>'Shiping'+[_CurrentField_]</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="Formula: &quot;2019-10-03&quot;" type="Date" />
+            <Field name="source" size="25" source="Formula: if [source] = &quot;BFL2&quot; then &quot;SRS5&quot; else &quot;CD087&quot; endif" type="V_String" />
+            <Field name="Order Number" size="9" source="Formula: &quot;CP&quot;+ReverseString(Right([Order Number], 7))" type="String" />
+            <Field name="customer_OuterXML" size="25400" source="TextInput:" type="V_String" />
+            <Field name="purchase2" size="6" source="TextInput:" type="String" />
+            <Field name="shipment2" size="4" source="TextInput:" type="String" />
+            <Field name="purchase" size="25" source="Formula: &quot;online&quot;" type="V_String" />
+            <Field name="shipment" size="4" source="Formula: &quot;GRND&quot;" type="String" />
+            <Field name="customer" size="48" type="V_String" />
+            <Field name="reference" size="9" type="V_String" />
+            <Field name="reference_OuterXML" size="32" type="V_String" />
+            <Field name="bill_to" size="47" type="V_String" />
+            <Field name="bill_to_OuterXML" size="671" type="V_String" />
+            <Field name="ship_to" size="47" type="V_String" />
+            <Field name="ship_to_OuterXML" size="671" type="V_String" />
+            <Field name="customer_OuterXML2" size="1440" type="V_String" />
+            <Field name="contact" size="101" type="V_String" />
+            <Field name="Shipingfirst_name" size="9" type="V_String" />
+            <Field name="Shipinglast_name" size="11" type="V_String" />
+            <Field name="Shipinghome_phone" size="11" type="V_String" />
+            <Field name="Shipingemail" size="21" type="V_String" />
+            <Field name="Shipingaddress" size="143" type="V_String" />
+            <Field name="Shipingline" size="23" type="V_String" />
+            <Field name="Shipingline_sequence" size="1" type="V_String" />
+            <Field name="Shipingcity" size="11" type="V_String" />
+            <Field name="Shipingprovince_code" size="2" type="V_String" />
+            <Field name="Shipingprovince" size="14" type="V_String" />
+            <Field name="Shipingpostal_code" size="5" type="V_String" />
+            <Field name="Shipingcountry_code" size="2" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="160">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="618" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="date" />
+            <Field field="source" />
+            <Field field="Order Number" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="date" />
+            <Field field="source" />
+            <Field field="Order Number" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_purchase2" selected="False" input="Left_" />
+                <SelectField field="Left_shipment2" selected="False" input="Left_" />
+                <SelectField field="Left_customer" selected="False" input="Left_" />
+                <SelectField field="Left_reference" selected="False" input="Left_" />
+                <SelectField field="Left_reference_OuterXML" selected="False" input="Left_" />
+                <SelectField field="Left_bill_to" selected="False" input="Left_" />
+                <SelectField field="Left_bill_to_OuterXML" selected="False" input="Left_" />
+                <SelectField field="Left_ship_to" selected="False" input="Left_" />
+                <SelectField field="Left_ship_to_OuterXML" selected="False" input="Left_" />
+                <SelectField field="Left_customer_OuterXML2" selected="False" input="Left_" />
+                <SelectField field="Left_contact" selected="False" input="Left_" />
+                <SelectField field="Left_Billingaddress" selected="False" input="Left_" />
+                <SelectField field="Left_Billingline_sequence" selected="False" input="Left_" />
+                <SelectField field="Right_date" selected="False" rename="Right_date" input="Right_" />
+                <SelectField field="Right_source" selected="False" rename="Right_source" input="Right_" />
+                <SelectField field="Right_Order Number" selected="False" rename="Right_Order Number" input="Right_" />
+                <SelectField field="Right_customer_OuterXML" selected="False" rename="Right_customer_OuterXML" input="Right_" />
+                <SelectField field="Right_purchase2" selected="False" rename="Right_purchase2" input="Right_" />
+                <SelectField field="Right_shipment2" selected="False" rename="Right_shipment2" input="Right_" />
+                <SelectField field="Right_purchase" selected="False" rename="Right_purchase" input="Right_" />
+                <SelectField field="Right_shipment" selected="False" rename="Right_shipment" input="Right_" />
+                <SelectField field="Right_customer" selected="False" rename="Right_customer" input="Right_" />
+                <SelectField field="Right_reference" selected="False" rename="Right_reference" input="Right_" />
+                <SelectField field="Right_reference_OuterXML" selected="False" rename="Right_reference_OuterXML" input="Right_" />
+                <SelectField field="Right_bill_to" selected="False" rename="Right_bill_to" input="Right_" />
+                <SelectField field="Right_bill_to_OuterXML" selected="False" rename="Right_bill_to_OuterXML" input="Right_" />
+                <SelectField field="Right_ship_to" selected="False" rename="Right_ship_to" input="Right_" />
+                <SelectField field="Right_ship_to_OuterXML" selected="False" rename="Right_ship_to_OuterXML" input="Right_" />
+                <SelectField field="Right_customer_OuterXML2" selected="False" rename="Right_customer_OuterXML2" input="Right_" />
+                <SelectField field="Right_contact" selected="False" rename="Right_contact" input="Right_" />
+                <SelectField field="Right_Shipingaddress" selected="False" input="Right_" />
+                <SelectField field="Right_Shipingline_sequence" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="161">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="726" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Order Number" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Order Number - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="149" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Output" />
+      <Destination ToolID="152" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="151" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="152" Connection="Output" />
+      <Destination ToolID="153" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="152" Connection="Output" />
+      <Destination ToolID="154" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="153" Connection="Output" />
+      <Destination ToolID="155" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="154" Connection="Output" />
+      <Destination ToolID="156" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="155" Connection="Output" />
+      <Destination ToolID="158" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="156" Connection="Output" />
+      <Destination ToolID="159" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="158" Connection="Output" />
+      <Destination ToolID="160" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="159" Connection="Output" />
+      <Destination ToolID="160" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="160" Connection="Join" />
+      <Destination ToolID="161" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_37_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="25d5931e-fb28-44c5-8d9c-7ef3cd40bf64" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="25d5931e-fb28-44c5-8d9c-7ef3cd40bf64" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

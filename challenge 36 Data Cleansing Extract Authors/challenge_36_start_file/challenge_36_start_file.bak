@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="240" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="240" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="50" y="50" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="446" y="66" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #36</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="110" width="612" height="95" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Use Case:  An analytical consulting company downloads medical journal publication data from the web and would like to extract all of the authors for the listed entries
+
+The text input contains details about each article where FAU indicates the author name for the article – in most case there are multiple authors. The details of each article are contained in lines that begin with PMID and end with an empty line. 
+
+Objective: Parse out each article PMID and list each author in sequential columns as seen in the Results.yxmd file.
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="595" y="275" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_11820_5b530df46010441bb9a3b112f26c2ef1_\Engine_4612_756d170252b840d2b4eeee05cdca3ef6_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="185" y="275" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_11820_5b530df46010441bb9a3b112f26c2ef1_\Engine_4612_96decab940cd49f6a5bfa05e2ed8d232_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="139">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="75" y="275" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="21">pubmed_result.txt</File>
+          <FormatSpecificOptions>
+            <TrimWhiteSpace>Unset</TrimWhiteSpace>
+            <LineEndStyle>Unset</LineEndStyle>
+            <AllowLongLines>Unset</AllowLongLines>
+            <CodePage>28591</CodePage>
+            <AllowShortLines>Unset</AllowShortLines>
+            <FlatFileXML>
+              <flatfile version="1">
+                <file eoltype="crlf" allowShortLines="t" allowLongLines="f" trimWhiteSpace="t" />
+                <fields>
+                  <field name="Field_1" type="V_String" length="87" />
+                </fields>
+              </flatfile>
+            </FlatFileXML>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>pubmed_result.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="87" source="File: C:\Users\cbonthius\Desktop\Community Moderation\Weekly_Challenge_Rename\weekly_challenge_files\36\pubmed_result.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="485" y="275" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Result.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Result.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula: trim(if [Field_11]=='PMID' then [Field_12] else[Row-1:PMID] endif)" name="PMID" size="254" source="CrossTab:Group:Concat:" type="String" />
+            <Field name="Author1" size="2048" source="CrossTab:Header:Author_ID:Author1:Concat:" type="V_String" />
+            <Field name="Author2" size="2048" source="CrossTab:Header:Author_ID:Author2:Concat:" type="V_String" />
+            <Field name="Author3" size="2048" source="CrossTab:Header:Author_ID:Author3:Concat:" type="V_String" />
+            <Field name="Author4" size="2048" source="CrossTab:Header:Author_ID:Author4:Concat:" type="V_String" />
+            <Field name="Author5" size="2048" source="CrossTab:Header:Author_ID:Author5:Concat:" type="V_String" />
+            <Field name="Author6" size="2048" source="CrossTab:Header:Author_ID:Author6:Concat:" type="V_String" />
+            <Field name="Author7" size="2048" source="CrossTab:Header:Author_ID:Author7:Concat:" type="V_String" />
+            <Field name="Author8" size="2048" source="CrossTab:Header:Author_ID:Author8:Concat:" type="V_String" />
+            <Field name="Author9" size="2048" source="CrossTab:Header:Author_ID:Author9:Concat:" type="V_String" />
+            <Field name="Author10" size="2048" source="CrossTab:Header:Author_ID:Author10:Concat:" type="V_String" />
+            <Field name="Author11" size="2048" source="CrossTab:Header:Author_ID:Author11:Concat:" type="V_String" />
+            <Field name="Author12" size="2048" source="CrossTab:Header:Author_ID:Author12:Concat:" type="V_String" />
+            <Field name="Author13" size="2048" source="CrossTab:Header:Author_ID:Author13:Concat:" type="V_String" />
+            <Field name="Author14" size="2048" source="CrossTab:Header:Author_ID:Author14:Concat:" type="V_String" />
+            <Field name="Author15" size="2048" source="CrossTab:Header:Author_ID:Author15:Concat:" type="V_String" />
+            <Field name="Author16" size="2048" source="CrossTab:Header:Author_ID:Author16:Concat:" type="V_String" />
+            <Field name="Author17" size="2048" source="CrossTab:Header:Author_ID:Author17:Concat:" type="V_String" />
+            <Field name="Author18" size="2048" source="CrossTab:Header:Author_ID:Author18:Concat:" type="V_String" />
+            <Field name="Author19" size="2048" source="CrossTab:Header:Author_ID:Author19:Concat:" type="V_String" />
+            <Field name="Author20" size="2048" source="CrossTab:Header:Author_ID:Author20:Concat:" type="V_String" />
+            <Field name="Author21" size="2048" source="CrossTab:Header:Author_ID:Author21:Concat:" type="V_String" />
+            <Field name="Author22" size="2048" source="CrossTab:Header:Author_ID:Author22:Concat:" type="V_String" />
+            <Field name="Author23" size="2048" source="CrossTab:Header:Author_ID:Author23:Concat:" type="V_String" />
+            <Field name="Author24" size="2048" source="CrossTab:Header:Author_ID:Author24:Concat:" type="V_String" />
+            <Field name="Author25" size="2048" source="CrossTab:Header:Author_ID:Author25:Concat:" type="V_String" />
+            <Field name="Author26" size="2048" source="CrossTab:Header:Author_ID:Author26:Concat:" type="V_String" />
+            <Field name="Author27" size="2048" source="CrossTab:Header:Author_ID:Author27:Concat:" type="V_String" />
+            <Field name="Author28" size="2048" source="CrossTab:Header:Author_ID:Author28:Concat:" type="V_String" />
+            <Field name="Author29" size="2048" source="CrossTab:Header:Author_ID:Author29:Concat:" type="V_String" />
+            <Field name="Author30" size="2048" source="CrossTab:Header:Author_ID:Author30:Concat:" type="V_String" />
+            <Field name="Author31" size="2048" source="CrossTab:Header:Author_ID:Author31:Concat:" type="V_String" />
+            <Field name="Author32" size="2048" source="CrossTab:Header:Author_ID:Author32:Concat:" type="V_String" />
+            <Field name="Author33" size="2048" source="CrossTab:Header:Author_ID:Author33:Concat:" type="V_String" />
+            <Field name="Author34" size="2048" source="CrossTab:Header:Author_ID:Author34:Concat:" type="V_String" />
+            <Field name="Author35" size="2048" source="CrossTab:Header:Author_ID:Author35:Concat:" type="V_String" />
+            <Field name="Author36" size="2048" source="CrossTab:Header:Author_ID:Author36:Concat:" type="V_String" />
+            <Field name="Author37" size="2048" source="CrossTab:Header:Author_ID:Author37:Concat:" type="V_String" />
+            <Field name="Author38" size="2048" source="CrossTab:Header:Author_ID:Author38:Concat:" type="V_String" />
+            <Field name="Author39" size="2048" source="CrossTab:Header:Author_ID:Author39:Concat:" type="V_String" />
+            <Field name="Author40" size="2048" source="CrossTab:Header:Author_ID:Author40:Concat:" type="V_String" />
+            <Field name="Author41" size="2048" source="CrossTab:Header:Author_ID:Author41:Concat:" type="V_String" />
+            <Field name="Author42" size="2048" source="CrossTab:Header:Author_ID:Author42:Concat:" type="V_String" />
+            <Field name="Author43" size="2048" source="CrossTab:Header:Author_ID:Author43:Concat:" type="V_String" />
+            <Field name="Author44" size="2048" source="CrossTab:Header:Author_ID:Author44:Concat:" type="V_String" />
+            <Field name="Author45" size="2048" source="CrossTab:Header:Author_ID:Author45:Concat:" type="V_String" />
+            <Field name="Author46" size="2048" source="CrossTab:Header:Author_ID:Author46:Concat:" type="V_String" />
+            <Field name="Author47" size="2048" source="CrossTab:Header:Author_ID:Author47:Concat:" type="V_String" />
+            <Field name="Author48" size="2048" source="CrossTab:Header:Author_ID:Author48:Concat:" type="V_String" />
+            <Field name="Author49" size="2048" source="CrossTab:Header:Author_ID:Author49:Concat:" type="V_String" />
+            <Field name="Author50" size="2048" source="CrossTab:Header:Author_ID:Author50:Concat:" type="V_String" />
+            <Field name="Author51" size="2048" source="CrossTab:Header:Author_ID:Author51:Concat:" type="V_String" />
+            <Field name="Author52" size="2048" source="CrossTab:Header:Author_ID:Author52:Concat:" type="V_String" />
+            <Field name="Author53" size="2048" source="CrossTab:Header:Author_ID:Author53:Concat:" type="V_String" />
+            <Field name="Author54" size="2048" source="CrossTab:Header:Author_ID:Author54:Concat:" type="V_String" />
+            <Field name="Author55" size="2048" source="CrossTab:Header:Author_ID:Author55:Concat:" type="V_String" />
+            <Field name="Author56" size="2048" source="CrossTab:Header:Author_ID:Author56:Concat:" type="V_String" />
+            <Field name="Author57" size="2048" source="CrossTab:Header:Author_ID:Author57:Concat:" type="V_String" />
+            <Field name="Author58" size="2048" source="CrossTab:Header:Author_ID:Author58:Concat:" type="V_String" />
+            <Field name="Author59" size="2048" source="CrossTab:Header:Author_ID:Author59:Concat:" type="V_String" />
+            <Field name="Author60" size="2048" source="CrossTab:Header:Author_ID:Author60:Concat:" type="V_String" />
+            <Field name="Author61" size="2048" source="CrossTab:Header:Author_ID:Author61:Concat:" type="V_String" />
+            <Field name="Author62" size="2048" source="CrossTab:Header:Author_ID:Author62:Concat:" type="V_String" />
+            <Field name="Author63" size="2048" source="CrossTab:Header:Author_ID:Author63:Concat:" type="V_String" />
+            <Field name="Author64" size="2048" source="CrossTab:Header:Author_ID:Author64:Concat:" type="V_String" />
+            <Field name="Author65" size="2048" source="CrossTab:Header:Author_ID:Author65:Concat:" type="V_String" />
+            <Field name="Author66" size="2048" source="CrossTab:Header:Author_ID:Author66:Concat:" type="V_String" />
+            <Field name="Author67" size="2048" source="CrossTab:Header:Author_ID:Author67:Concat:" type="V_String" />
+            <Field name="Author68" size="2048" source="CrossTab:Header:Author_ID:Author68:Concat:" type="V_String" />
+            <Field name="Author69" size="2048" source="CrossTab:Header:Author_ID:Author69:Concat:" type="V_String" />
+            <Field name="Author70" size="2048" source="CrossTab:Header:Author_ID:Author70:Concat:" type="V_String" />
+            <Field name="Author71" size="2048" source="CrossTab:Header:Author_ID:Author71:Concat:" type="V_String" />
+            <Field name="Author72" size="2048" source="CrossTab:Header:Author_ID:Author72:Concat:" type="V_String" />
+            <Field name="Author73" size="2048" source="CrossTab:Header:Author_ID:Author73:Concat:" type="V_String" />
+            <Field name="Author74" size="2048" source="CrossTab:Header:Author_ID:Author74:Concat:" type="V_String" />
+            <Field name="Author75" size="2048" source="CrossTab:Header:Author_ID:Author75:Concat:" type="V_String" />
+            <Field name="Author76" size="2048" source="CrossTab:Header:Author_ID:Author76:Concat:" type="V_String" />
+            <Field name="Author77" size="2048" source="CrossTab:Header:Author_ID:Author77:Concat:" type="V_String" />
+            <Field name="Author78" size="2048" source="CrossTab:Header:Author_ID:Author78:Concat:" type="V_String" />
+            <Field name="Author79" size="2048" source="CrossTab:Header:Author_ID:Author79:Concat:" type="V_String" />
+            <Field name="Author80" size="2048" source="CrossTab:Header:Author_ID:Author80:Concat:" type="V_String" />
+            <Field name="Author81" size="2048" source="CrossTab:Header:Author_ID:Author81:Concat:" type="V_String" />
+            <Field name="Author82" size="2048" source="CrossTab:Header:Author_ID:Author82:Concat:" type="V_String" />
+            <Field name="Author83" size="2048" source="CrossTab:Header:Author_ID:Author83:Concat:" type="V_String" />
+            <Field name="Author84" size="2048" source="CrossTab:Header:Author_ID:Author84:Concat:" type="V_String" />
+            <Field name="Author85" size="2048" source="CrossTab:Header:Author_ID:Author85:Concat:" type="V_String" />
+            <Field name="Author86" size="2048" source="CrossTab:Header:Author_ID:Author86:Concat:" type="V_String" />
+            <Field name="Author87" size="2048" source="CrossTab:Header:Author_ID:Author87:Concat:" type="V_String" />
+            <Field name="Author88" size="2048" source="CrossTab:Header:Author_ID:Author88:Concat:" type="V_String" />
+            <Field name="Author89" size="2048" source="CrossTab:Header:Author_ID:Author89:Concat:" type="V_String" />
+            <Field name="Author90" size="2048" source="CrossTab:Header:Author_ID:Author90:Concat:" type="V_String" />
+            <Field name="Author91" size="2048" source="CrossTab:Header:Author_ID:Author91:Concat:" type="V_String" />
+            <Field name="Author92" size="2048" source="CrossTab:Header:Author_ID:Author92:Concat:" type="V_String" />
+            <Field name="Author93" size="2048" source="CrossTab:Header:Author_ID:Author93:Concat:" type="V_String" />
+            <Field name="Author94" size="2048" source="CrossTab:Header:Author_ID:Author94:Concat:" type="V_String" />
+            <Field name="Author95" size="2048" source="CrossTab:Header:Author_ID:Author95:Concat:" type="V_String" />
+            <Field name="Author96" size="2048" source="CrossTab:Header:Author_ID:Author96:Concat:" type="V_String" />
+            <Field name="Author97" size="2048" source="CrossTab:Header:Author_ID:Author97:Concat:" type="V_String" />
+            <Field name="Author98" size="2048" source="CrossTab:Header:Author_ID:Author98:Concat:" type="V_String" />
+            <Field name="Author99" size="2048" source="CrossTab:Header:Author_ID:Author99:Concat:" type="V_String" />
+            <Field name="Author100" size="2048" source="CrossTab:Header:Author_ID:Author100:Concat:" type="V_String" />
+            <Field name="Author101" size="2048" source="CrossTab:Header:Author_ID:Author101:Concat:" type="V_String" />
+            <Field name="Author102" size="2048" source="CrossTab:Header:Author_ID:Author102:Concat:" type="V_String" />
+            <Field name="Author103" size="2048" source="CrossTab:Header:Author_ID:Author103:Concat:" type="V_String" />
+            <Field name="Author104" size="2048" source="CrossTab:Header:Author_ID:Author104:Concat:" type="V_String" />
+            <Field name="Author105" size="2048" source="CrossTab:Header:Author_ID:Author105:Concat:" type="V_String" />
+            <Field name="Author106" size="2048" source="CrossTab:Header:Author_ID:Author106:Concat:" type="V_String" />
+            <Field name="Author107" size="2048" source="CrossTab:Header:Author_ID:Author107:Concat:" type="V_String" />
+            <Field name="Author108" size="2048" source="CrossTab:Header:Author_ID:Author108:Concat:" type="V_String" />
+            <Field name="Author109" size="2048" source="CrossTab:Header:Author_ID:Author109:Concat:" type="V_String" />
+            <Field name="Author110" size="2048" source="CrossTab:Header:Author_ID:Author110:Concat:" type="V_String" />
+            <Field name="Author111" size="2048" source="CrossTab:Header:Author_ID:Author111:Concat:" type="V_String" />
+            <Field name="Author112" size="2048" source="CrossTab:Header:Author_ID:Author112:Concat:" type="V_String" />
+            <Field name="Author113" size="2048" source="CrossTab:Header:Author_ID:Author113:Concat:" type="V_String" />
+            <Field name="Author114" size="2048" source="CrossTab:Header:Author_ID:Author114:Concat:" type="V_String" />
+            <Field name="Author115" size="2048" source="CrossTab:Header:Author_ID:Author115:Concat:" type="V_String" />
+            <Field name="Author116" size="2048" source="CrossTab:Header:Author_ID:Author116:Concat:" type="V_String" />
+            <Field name="Author117" size="2048" source="CrossTab:Header:Author_ID:Author117:Concat:" type="V_String" />
+            <Field name="Author118" size="2048" source="CrossTab:Header:Author_ID:Author118:Concat:" type="V_String" />
+            <Field name="Author119" size="2048" source="CrossTab:Header:Author_ID:Author119:Concat:" type="V_String" />
+            <Field name="Author120" size="2048" source="CrossTab:Header:Author_ID:Author120:Concat:" type="V_String" />
+            <Field name="Author121" size="2048" source="CrossTab:Header:Author_ID:Author121:Concat:" type="V_String" />
+            <Field name="Author122" size="2048" source="CrossTab:Header:Author_ID:Author122:Concat:" type="V_String" />
+            <Field name="Author123" size="2048" source="CrossTab:Header:Author_ID:Author123:Concat:" type="V_String" />
+            <Field name="Author124" size="2048" source="CrossTab:Header:Author_ID:Author124:Concat:" type="V_String" />
+            <Field name="Author125" size="2048" source="CrossTab:Header:Author_ID:Author125:Concat:" type="V_String" />
+            <Field name="Author126" size="2048" source="CrossTab:Header:Author_ID:Author126:Concat:" type="V_String" />
+            <Field name="Author127" size="2048" source="CrossTab:Header:Author_ID:Author127:Concat:" type="V_String" />
+            <Field name="Author128" size="2048" source="CrossTab:Header:Author_ID:Author128:Concat:" type="V_String" />
+            <Field name="Author129" size="2048" source="CrossTab:Header:Author_ID:Author129:Concat:" type="V_String" />
+            <Field name="Author130" size="2048" source="CrossTab:Header:Author_ID:Author130:Concat:" type="V_String" />
+            <Field name="Author131" size="2048" source="CrossTab:Header:Author_ID:Author131:Concat:" type="V_String" />
+            <Field name="Author132" size="2048" source="CrossTab:Header:Author_ID:Author132:Concat:" type="V_String" />
+            <Field name="Author133" size="2048" source="CrossTab:Header:Author_ID:Author133:Concat:" type="V_String" />
+            <Field name="Author134" size="2048" source="CrossTab:Header:Author_ID:Author134:Concat:" type="V_String" />
+            <Field name="Author135" size="2048" source="CrossTab:Header:Author_ID:Author135:Concat:" type="V_String" />
+            <Field name="Author136" size="2048" source="CrossTab:Header:Author_ID:Author136:Concat:" type="V_String" />
+            <Field name="Author137" size="2048" source="CrossTab:Header:Author_ID:Author137:Concat:" type="V_String" />
+            <Field name="Author138" size="2048" source="CrossTab:Header:Author_ID:Author138:Concat:" type="V_String" />
+            <Field name="Author139" size="2048" source="CrossTab:Header:Author_ID:Author139:Concat:" type="V_String" />
+            <Field name="Author140" size="2048" source="CrossTab:Header:Author_ID:Author140:Concat:" type="V_String" />
+            <Field name="Author141" size="2048" source="CrossTab:Header:Author_ID:Author141:Concat:" type="V_String" />
+            <Field name="Author142" size="2048" source="CrossTab:Header:Author_ID:Author142:Concat:" type="V_String" />
+            <Field name="Author143" size="2048" source="CrossTab:Header:Author_ID:Author143:Concat:" type="V_String" />
+            <Field name="Author144" size="2048" source="CrossTab:Header:Author_ID:Author144:Concat:" type="V_String" />
+            <Field name="Author145" size="2048" source="CrossTab:Header:Author_ID:Author145:Concat:" type="V_String" />
+            <Field name="Author146" size="2048" source="CrossTab:Header:Author_ID:Author146:Concat:" type="V_String" />
+            <Field name="Author147" size="2048" source="CrossTab:Header:Author_ID:Author147:Concat:" type="V_String" />
+            <Field name="Author148" size="2048" source="CrossTab:Header:Author_ID:Author148:Concat:" type="V_String" />
+            <Field name="Author149" size="2048" source="CrossTab:Header:Author_ID:Author149:Concat:" type="V_String" />
+            <Field name="Author150" size="2048" source="CrossTab:Header:Author_ID:Author150:Concat:" type="V_String" />
+            <Field name="Author151" size="2048" source="CrossTab:Header:Author_ID:Author151:Concat:" type="V_String" />
+            <Field name="Author152" size="2048" source="CrossTab:Header:Author_ID:Author152:Concat:" type="V_String" />
+            <Field name="Author153" size="2048" source="CrossTab:Header:Author_ID:Author153:Concat:" type="V_String" />
+            <Field name="Author154" size="2048" source="CrossTab:Header:Author_ID:Author154:Concat:" type="V_String" />
+            <Field name="Author155" size="2048" source="CrossTab:Header:Author_ID:Author155:Concat:" type="V_String" />
+            <Field name="Author156" size="2048" source="CrossTab:Header:Author_ID:Author156:Concat:" type="V_String" />
+            <Field name="Author157" size="2048" source="CrossTab:Header:Author_ID:Author157:Concat:" type="V_String" />
+            <Field name="Author158" size="2048" source="CrossTab:Header:Author_ID:Author158:Concat:" type="V_String" />
+            <Field name="Author159" size="2048" source="CrossTab:Header:Author_ID:Author159:Concat:" type="V_String" />
+            <Field name="Author160" size="2048" source="CrossTab:Header:Author_ID:Author160:Concat:" type="V_String" />
+            <Field name="Author161" size="2048" source="CrossTab:Header:Author_ID:Author161:Concat:" type="V_String" />
+            <Field name="Author162" size="2048" source="CrossTab:Header:Author_ID:Author162:Concat:" type="V_String" />
+            <Field name="Author163" size="2048" source="CrossTab:Header:Author_ID:Author163:Concat:" type="V_String" />
+            <Field name="Author164" size="2048" source="CrossTab:Header:Author_ID:Author164:Concat:" type="V_String" />
+            <Field name="Author165" size="2048" source="CrossTab:Header:Author_ID:Author165:Concat:" type="V_String" />
+            <Field name="Author166" size="2048" source="CrossTab:Header:Author_ID:Author166:Concat:" type="V_String" />
+            <Field name="Author167" size="2048" source="CrossTab:Header:Author_ID:Author167:Concat:" type="V_String" />
+            <Field name="Author168" size="2048" source="CrossTab:Header:Author_ID:Author168:Concat:" type="V_String" />
+            <Field name="Author169" size="2048" source="CrossTab:Header:Author_ID:Author169:Concat:" type="V_String" />
+            <Field name="Author170" size="2048" source="CrossTab:Header:Author_ID:Author170:Concat:" type="V_String" />
+            <Field name="Author171" size="2048" source="CrossTab:Header:Author_ID:Author171:Concat:" type="V_String" />
+            <Field name="Author172" size="2048" source="CrossTab:Header:Author_ID:Author172:Concat:" type="V_String" />
+            <Field name="Author173" size="2048" source="CrossTab:Header:Author_ID:Author173:Concat:" type="V_String" />
+            <Field name="Author174" size="2048" source="CrossTab:Header:Author_ID:Author174:Concat:" type="V_String" />
+            <Field name="Author175" size="2048" source="CrossTab:Header:Author_ID:Author175:Concat:" type="V_String" />
+            <Field name="Author176" size="2048" source="CrossTab:Header:Author_ID:Author176:Concat:" type="V_String" />
+            <Field name="Author177" size="2048" source="CrossTab:Header:Author_ID:Author177:Concat:" type="V_String" />
+            <Field name="Author178" size="2048" source="CrossTab:Header:Author_ID:Author178:Concat:" type="V_String" />
+            <Field name="Author179" size="2048" source="CrossTab:Header:Author_ID:Author179:Concat:" type="V_String" />
+            <Field name="Author180" size="2048" source="CrossTab:Header:Author_ID:Author180:Concat:" type="V_String" />
+            <Field name="Author181" size="2048" source="CrossTab:Header:Author_ID:Author181:Concat:" type="V_String" />
+            <Field name="Author182" size="2048" source="CrossTab:Header:Author_ID:Author182:Concat:" type="V_String" />
+            <Field name="Author183" size="2048" source="CrossTab:Header:Author_ID:Author183:Concat:" type="V_String" />
+            <Field name="Author184" size="2048" source="CrossTab:Header:Author_ID:Author184:Concat:" type="V_String" />
+            <Field name="Author185" size="2048" source="CrossTab:Header:Author_ID:Author185:Concat:" type="V_String" />
+            <Field name="Author186" size="2048" source="CrossTab:Header:Author_ID:Author186:Concat:" type="V_String" />
+            <Field name="Author187" size="2048" source="CrossTab:Header:Author_ID:Author187:Concat:" type="V_String" />
+            <Field name="Author188" size="2048" source="CrossTab:Header:Author_ID:Author188:Concat:" type="V_String" />
+            <Field name="Author189" size="2048" source="CrossTab:Header:Author_ID:Author189:Concat:" type="V_String" />
+            <Field name="Author190" size="2048" source="CrossTab:Header:Author_ID:Author190:Concat:" type="V_String" />
+            <Field name="Author191" size="2048" source="CrossTab:Header:Author_ID:Author191:Concat:" type="V_String" />
+            <Field name="Author192" size="2048" source="CrossTab:Header:Author_ID:Author192:Concat:" type="V_String" />
+            <Field name="Author193" size="2048" source="CrossTab:Header:Author_ID:Author193:Concat:" type="V_String" />
+            <Field name="Author194" size="2048" source="CrossTab:Header:Author_ID:Author194:Concat:" type="V_String" />
+            <Field name="Author195" size="2048" source="CrossTab:Header:Author_ID:Author195:Concat:" type="V_String" />
+            <Field name="Author196" size="2048" source="CrossTab:Header:Author_ID:Author196:Concat:" type="V_String" />
+            <Field name="Author197" size="2048" source="CrossTab:Header:Author_ID:Author197:Concat:" type="V_String" />
+            <Field name="Author198" size="2048" source="CrossTab:Header:Author_ID:Author198:Concat:" type="V_String" />
+            <Field name="Author199" size="2048" source="CrossTab:Header:Author_ID:Author199:Concat:" type="V_String" />
+            <Field name="Author200" size="2048" source="CrossTab:Header:Author_ID:Author200:Concat:" type="V_String" />
+            <Field name="Author201" size="2048" source="CrossTab:Header:Author_ID:Author201:Concat:" type="V_String" />
+            <Field name="Author202" size="2048" source="CrossTab:Header:Author_ID:Author202:Concat:" type="V_String" />
+            <Field name="Author203" size="2048" source="CrossTab:Header:Author_ID:Author203:Concat:" type="V_String" />
+            <Field name="Author204" size="2048" source="CrossTab:Header:Author_ID:Author204:Concat:" type="V_String" />
+            <Field name="Author205" size="2048" source="CrossTab:Header:Author_ID:Author205:Concat:" type="V_String" />
+            <Field name="Author206" size="2048" source="CrossTab:Header:Author_ID:Author206:Concat:" type="V_String" />
+            <Field name="Author207" size="2048" source="CrossTab:Header:Author_ID:Author207:Concat:" type="V_String" />
+            <Field name="Author208" size="2048" source="CrossTab:Header:Author_ID:Author208:Concat:" type="V_String" />
+            <Field name="Author209" size="2048" source="CrossTab:Header:Author_ID:Author209:Concat:" type="V_String" />
+            <Field name="Author210" size="2048" source="CrossTab:Header:Author_ID:Author210:Concat:" type="V_String" />
+            <Field name="Author211" size="2048" source="CrossTab:Header:Author_ID:Author211:Concat:" type="V_String" />
+            <Field name="Author212" size="2048" source="CrossTab:Header:Author_ID:Author212:Concat:" type="V_String" />
+            <Field name="Author213" size="2048" source="CrossTab:Header:Author_ID:Author213:Concat:" type="V_String" />
+            <Field name="Author214" size="2048" source="CrossTab:Header:Author_ID:Author214:Concat:" type="V_String" />
+            <Field name="Author215" size="2048" source="CrossTab:Header:Author_ID:Author215:Concat:" type="V_String" />
+            <Field name="Author216" size="2048" source="CrossTab:Header:Author_ID:Author216:Concat:" type="V_String" />
+            <Field name="Author217" size="2048" source="CrossTab:Header:Author_ID:Author217:Concat:" type="V_String" />
+            <Field name="Author218" size="2048" source="CrossTab:Header:Author_ID:Author218:Concat:" type="V_String" />
+            <Field name="Author219" size="2048" source="CrossTab:Header:Author_ID:Author219:Concat:" type="V_String" />
+            <Field name="Author220" size="2048" source="CrossTab:Header:Author_ID:Author220:Concat:" type="V_String" />
+            <Field name="Author221" size="2048" source="CrossTab:Header:Author_ID:Author221:Concat:" type="V_String" />
+            <Field name="Author222" size="2048" source="CrossTab:Header:Author_ID:Author222:Concat:" type="V_String" />
+            <Field name="Author223" size="2048" source="CrossTab:Header:Author_ID:Author223:Concat:" type="V_String" />
+            <Field name="Author224" size="2048" source="CrossTab:Header:Author_ID:Author224:Concat:" type="V_String" />
+            <Field name="Author225" size="2048" source="CrossTab:Header:Author_ID:Author225:Concat:" type="V_String" />
+            <Field name="Author226" size="2048" source="CrossTab:Header:Author_ID:Author226:Concat:" type="V_String" />
+            <Field name="Author227" size="2048" source="CrossTab:Header:Author_ID:Author227:Concat:" type="V_String" />
+            <Field name="Author228" size="2048" source="CrossTab:Header:Author_ID:Author228:Concat:" type="V_String" />
+            <Field name="Author229" size="2048" source="CrossTab:Header:Author_ID:Author229:Concat:" type="V_String" />
+            <Field name="Author230" size="2048" source="CrossTab:Header:Author_ID:Author230:Concat:" type="V_String" />
+            <Field name="Author231" size="2048" source="CrossTab:Header:Author_ID:Author231:Concat:" type="V_String" />
+            <Field name="Author232" size="2048" source="CrossTab:Header:Author_ID:Author232:Concat:" type="V_String" />
+            <Field name="Author233" size="2048" source="CrossTab:Header:Author_ID:Author233:Concat:" type="V_String" />
+            <Field name="Author234" size="2048" source="CrossTab:Header:Author_ID:Author234:Concat:" type="V_String" />
+            <Field name="Author235" size="2048" source="CrossTab:Header:Author_ID:Author235:Concat:" type="V_String" />
+            <Field name="Author236" size="2048" source="CrossTab:Header:Author_ID:Author236:Concat:" type="V_String" />
+            <Field name="Author237" size="2048" source="CrossTab:Header:Author_ID:Author237:Concat:" type="V_String" />
+            <Field name="Author238" size="2048" source="CrossTab:Header:Author_ID:Author238:Concat:" type="V_String" />
+            <Field name="Author239" size="2048" source="CrossTab:Header:Author_ID:Author239:Concat:" type="V_String" />
+            <Field name="Author240" size="2048" source="CrossTab:Header:Author_ID:Author240:Concat:" type="V_String" />
+            <Field name="Author241" size="2048" source="CrossTab:Header:Author_ID:Author241:Concat:" type="V_String" />
+            <Field name="Author242" size="2048" source="CrossTab:Header:Author_ID:Author242:Concat:" type="V_String" />
+            <Field name="Author243" size="2048" source="CrossTab:Header:Author_ID:Author243:Concat:" type="V_String" />
+            <Field name="Author244" size="2048" source="CrossTab:Header:Author_ID:Author244:Concat:" type="V_String" />
+            <Field name="Author245" size="2048" source="CrossTab:Header:Author_ID:Author245:Concat:" type="V_String" />
+            <Field name="Author246" size="2048" source="CrossTab:Header:Author_ID:Author246:Concat:" type="V_String" />
+            <Field name="Author247" size="2048" source="CrossTab:Header:Author_ID:Author247:Concat:" type="V_String" />
+            <Field name="Author248" size="2048" source="CrossTab:Header:Author_ID:Author248:Concat:" type="V_String" />
+            <Field name="Author249" size="2048" source="CrossTab:Header:Author_ID:Author249:Concat:" type="V_String" />
+            <Field name="Author250" size="2048" source="CrossTab:Header:Author_ID:Author250:Concat:" type="V_String" />
+            <Field name="Author251" size="2048" source="CrossTab:Header:Author_ID:Author251:Concat:" type="V_String" />
+            <Field name="Author252" size="2048" source="CrossTab:Header:Author_ID:Author252:Concat:" type="V_String" />
+            <Field name="Author253" size="2048" source="CrossTab:Header:Author_ID:Author253:Concat:" type="V_String" />
+            <Field name="Author254" size="2048" source="CrossTab:Header:Author_ID:Author254:Concat:" type="V_String" />
+            <Field name="Author255" size="2048" source="CrossTab:Header:Author_ID:Author255:Concat:" type="V_String" />
+            <Field name="Author256" size="2048" source="CrossTab:Header:Author_ID:Author256:Concat:" type="V_String" />
+            <Field name="Author257" size="2048" source="CrossTab:Header:Author_ID:Author257:Concat:" type="V_String" />
+            <Field name="Author258" size="2048" source="CrossTab:Header:Author_ID:Author258:Concat:" type="V_String" />
+            <Field name="Author259" size="2048" source="CrossTab:Header:Author_ID:Author259:Concat:" type="V_String" />
+            <Field name="Author260" size="2048" source="CrossTab:Header:Author_ID:Author260:Concat:" type="V_String" />
+            <Field name="Author261" size="2048" source="CrossTab:Header:Author_ID:Author261:Concat:" type="V_String" />
+            <Field name="Author262" size="2048" source="CrossTab:Header:Author_ID:Author262:Concat:" type="V_String" />
+            <Field name="Author263" size="2048" source="CrossTab:Header:Author_ID:Author263:Concat:" type="V_String" />
+            <Field name="Author264" size="2048" source="CrossTab:Header:Author_ID:Author264:Concat:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="139" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="140" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_36_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

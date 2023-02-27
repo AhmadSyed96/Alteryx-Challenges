@@ -1,0 +1,8 @@
+Analysis Data Row,Client,Product Group,CCY Group,Sector,Region,Size,Buy/Sell,Right_Region,Region Key,Right_Product Group,Product Key
+5,294,Outrights,G10,Real Money,EMEA,47219462.415872,1,EMEA,2,Outrights,5
+14,719,Outrights,G10,Bank,EMEA,78962582.5947768,-1,EMEA,2,Outrights,5
+23,1073,Outrights,G10,Bank,EMEA,88022499.9776014,1,EMEA,2,Outrights,5
+28,736,Outrights,LATAM,Real Money,EMEA,47219462.415872,1,EMEA,2,Outrights,5
+37,719,Outrights,LATAM,Bank,EMEA,5592521.98927644,-1,EMEA,2,Outrights,5
+44,438,Outrights,G10,Hedge Fund,EMEA,74601207.2795048,1,EMEA,2,Outrights,5
+63,796,Outrights,OTHER,Bank,EMEA,136987353.672084,-1,EMEA,2,Outrights,5
